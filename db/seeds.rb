@@ -3,5 +3,9 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+place = Place.create!(name: "Sears Tower", address: "233 South Wacker Drive Chicago, IL 60606")
+
+place = Place.create!(name: "Merchandise Mart", address: "222 W Merchandise Mart Plaza, Chicago, IL 60654")
+
+place = Place.create!(name: "John Hancock Center", address: "875 N Michigan Ave, Chicago, IL 60611")
